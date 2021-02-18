@@ -1,0 +1,96 @@
+.jumbotron{
+    background: url(cover.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 105vh;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.menu-header{
+    font-size: 16px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    width: 100%;
+    background: rgb(221, 221, 221, 0.3);
+    flex: 1;
+}
+
+#contacts{
+    margin-right: 50px;
+}
+.header-kanan{
+    margin-right: 20px;
+}
+
+.header-kiri{
+    margin-left: 150px;
+}
+
+
+#nama-jumbotron{
+    height: 30%;
+    margin-top: 350px;
+    margin-right: 400px;
+    margin-left: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    background: rgb(221, 221, 221, 0.3);
+    flex: 3;
+}
+
+.halaman-dua{
+    background: rgb(221, 221, 221);
+    position: absolute;
+    margin-top: 770px;
+    left: 0px;
+    width: 100%;
+    height: 800px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+#foto{
+    border-radius: 200px;
+    width: 200px;
+    height: 200px;
+    margin-top: -90px;
+} 
+
+.nama-posisi{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+#nama{
+    font-size: 30px;
+    margin-bottom: 7px;
+}
+
+.garis{
+    width: 100px;
+    height: 5px;
+    background: black;
+    margin-top: 25px;
+}
+
+.welcome{
+    position: relative;
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+}
