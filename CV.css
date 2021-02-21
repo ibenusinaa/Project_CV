@@ -1,28 +1,33 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Nunito Sans', sans-serif; 
+}
+
+html{
+    scroll-behavior: smooth;
+}
 .jumbotron{
     background: url(cover.JPG);
     background-repeat: no-repeat;
     background-size: cover;
     height: 105vh;
     width: 100%;
-    position: absolute;
-    left: 0px;
-    top: 0px;
+        /* position: absolute;
+        left: 0px;
+        top: 0px; */
     display: flex;
-    font-family: 'PT Sans', sans-serif;
+    flex-direction: column;
+
 }
 
 .menu-header{
     font-size: 16px;
-    position: absolute;
-    top: 0px;
-    left: 0px;
+    height: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 40px;
-    width: 100%;
-    background: rgb(221, 221, 221, 0.3);
-    flex: 1;
+    background: rgb(221, 221, 221, 0.5);
 }
 
 #contacts{
@@ -34,6 +39,10 @@
 
 .header-kiri{
     margin-left: 150px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    width: 100px;
 }
 
 
@@ -47,17 +56,15 @@
     justify-content: center;
     font-size: 25px;
     background: rgb(221, 221, 221, 0.3);
-    flex: 3;
 }
 
 .halaman-dua{
     background: rgb(221, 221, 221);
-    position: absolute;
-    margin-top: 770px;
-    left: 0px;
     width: 100%;
-    height: 2000px;
-    font-family: 'PT Sans', sans-serif;
+    height: 1900px;
+    font-family: 'Nunito Sans', sans-serif; 
+    display: flex;
+    flex-direction: column;
 }
 
 #foto{
@@ -88,14 +95,14 @@
     margin-top: 60px;
     display: flex;
     justify-content: center;
+    letter-spacing: 2px;
 }
 
 .profile{
     display: flex;
     justify-content: center;
-    width: 60%;
+    width: 70%;
     margin-top: 40px;
-
 }
 
 .profile .profile-satu{
@@ -159,4 +166,103 @@
     justify-content: center;
     text-align: center;
     margin-top: 5px;
+}
+
+#halaman-tiga{
+    background:#94b5c0;
+    width: 100%;
+    height: 160vh;
+    font-family: 'Nunito Sans', sans-serif; 
+    display: flex;
+    flex-direction: column;
+}
+
+.curriculum-vitae{
+    font-size: 36px;
+    letter-spacing: 2px;
+}
+
+.cv-satu{
+    flex: 1;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 2px;
+
+}
+
+.cv-dua{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+
+}
+
+.cv-tiga{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 80px;
+
+}
+
+.cv-year{
+    font-size: 16px;
+}
+
+hr{
+    border: 1px solid rgba(0, 0, 0, 0.411);
+}
+
+#halaman-empat{
+    background: rgb(221, 221, 221);
+    width: 100%;
+    height: 1050px;
+    font-family: 'Nunito Sans', sans-serif; 
+    display: flex;
+    flex-direction: column;
+}
+
+.projects-box{
+    margin-top: 100px;
+}
+
+.image-box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.image-box img{
+    height: 370px;
+    width: 33.3%;
+}
+
+#halaman-lima{
+    background: #374045;
+    width: 100%;
+    height: 1200px;
+    font-family: 'Nunito Sans', sans-serif; 
+    display: flex;
+    flex-direction: column;
+}
+
+.form-contacts{
+    width: 400px;
+    height: 45px;
+    margin-bottom: 5px;
+    background: rgb(221, 221, 221);
+}
+
+.form-button{
+    width: 120px;
+    height: 45px;
+    border-radius: 10px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    background: #fa4f3e;
+    color: white;
+    border: 1px solid #fa4f3e;
 }
