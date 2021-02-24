@@ -11,8 +11,7 @@ html{
     background: url(icons/cover.JPG);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 105vh;
-    width: 100%;
+
         /* position: absolute;
         left: 0px;
         top: 0px; */
@@ -47,10 +46,7 @@ html{
 
 
 #nama-jumbotron{
-    height: 30%;
-    margin-top: 350px;
-    margin-right: 400px;
-    margin-left: 400px;
+    margin: 350px 400px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -252,6 +248,7 @@ hr{
     height: 45px;
     margin-bottom: 5px;
     background: rgb(221, 221, 221);
+    font-family: 'Nunito Sans', sans-serif;
 }
 
 .form-button{
